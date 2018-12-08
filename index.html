@@ -1,0 +1,48 @@
+<html>
+  <head>
+      <title>ADA Students feedback</title>
+    <link rel="stylesheet" href="css/style.css" />
+    
+  </head>
+  <body class="all">
+    <h1 class="title"> <span class="white"> ADA</span> Students feedback </h1>
+    <div class="container">
+        <div class="left">
+                <img src="res/uncle-sam-we-want-you1-kopie_1.png" alt="" width="100%">
+                <h3>
+                    To give us feedback, because this course is made for you! Because it's all
+                        about you!
+                      </h3>
+                      <p>Fill this form if you:</p>
+                      <ul>
+                        <li>Find an error in the content or in the quizzes</li>
+                        <li>Have a feedback about instructors or the experience</li>
+                        <li>Have a suggestion on how to make the course better</li>
+                      </ul>
+        </div>
+        <div class="right">
+                <form id="form">
+                        <h3> Email Us</h3>
+                        <br />
+                        <span class="a"><p><label>Name</label><br> <input type="text" name="username" class="box1"/></p></span>
+                       <span class="a" ><p><label>Track</label><br>
+                        <select calss="a" class="Track" onchange="Track(this);" size="0">
+                          <option value="ai">AI</option>
+                          <option value="web"> web </option>
+                          <option value="game">game</option>
+                        </select></p> </span>
+                        <br />
+                        <p><label for="Slide-name">Slide name (or object)</label><br>
+                        <input type="text" name="name" class="box2" required />
+                        
+                         </p><br />
+                        <p class="full"><label>Message:</label><br> <textarea name="message" rows="5" id="message"></textarea></p>
+                        <br>
+                       <p class="full"><input type="submit" value="Submit" class="button"> </p> 
+                      </form>
+        </div>
+    </div>
+  </body>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="js/main.js"></script>
+</html>

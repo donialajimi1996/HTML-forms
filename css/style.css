@@ -1,0 +1,130 @@
+html {
+  background-color: #92bde7;
+}
+body {
+  display: inline;
+  color: #485e74;
+  line-height: 1.6;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 1em;
+}
+.title {
+  display: inline-block;
+  padding: 1em;
+  color: darkslategrey;
+  font-size: 2em;
+  text-shadow: 2px 2px 2px 2px black;
+  margin-left: 100px;
+
+  font-weight: bold;
+  margin-bottom: 0;
+}
+.all {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.white {
+  color: whitesmoke;
+}
+.container {
+  background-color: #c9e6ff;
+  width: 80%;
+  margin: auto;
+  box-sizing: border-box;
+  box-shadow: 0px 1px 20px 2px rgba(72, 94, 116, 0.7);
+  height: 650px;
+}
+
+option {
+  font-weight: normal;
+  display: block;
+  white-space: pre;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+}
+p {
+  display: block;
+  margin-block-start: 1.49em;
+  margin-block-end: 0em;
+  margin-inline-start: 1em;
+  margin-inline-end: 20px;
+}
+
+.left {
+  background:#c9e6ff;
+  display: inline-block;
+  padding: 1em;
+  width: 28.5%;
+  height: 616px;
+}
+.right {
+  background: #f9feff;
+  display: inline-block;
+  width: 65.1%;
+  height: 617.5px;
+  padding: 1em;
+}
+h3 {
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  margin-bottom: 0%;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#message {
+  box-sizing: border-box;
+  width: 100%;
+  height: 120px;
+  border: 1.5px solid #c9e6ff;
+  
+}
+.box2 {
+  box-sizing: border-box;
+  width: 45%;
+  height: 50px;
+  border: 1.5px solid #c9e6ff;
+}
+.box1{
+  box-sizing: border-box;
+  width: 300px;
+  height: 50px;
+  border: 1.5px solid #c9e6ff;
+  margin-top: 5px;
+}
+
+.a {
+  display: inline-block;
+ 
+}
+.Track{
+  margin-top: 15px;
+}
+label{
+  margin-bottom: 5%;
+}
+.button {
+  background-color: #c9e6ff;
+  box-sizing: border-box;
+  border: 1px solid #c9e6ff;
+  width: 100%;
+  height: 40px;
+  color: #485e74;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.button:hover{
+  background: #92bde7;
+    color: #fff;
+    outline: 0;
+    transition: background-color 1.5s ease-out;
+}
